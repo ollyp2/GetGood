@@ -1,0 +1,8 @@
+node_modules/
+logs/*.log
+db/*.json
+config/accounts.json
+config/.env
+.env
+*.log
+.DS_Store

@@ -1,0 +1,21 @@
+{
+  "apiBase": "https://case-clicker.com/api",
+  "clickDelay": 100,
+  "loopDelay": 300,
+  "caseBatchSize": 100,
+  "clickFreezeMaxConcurrent": 3,
+  "clickFreezeDuration": 172800000,
+  "retryAttempts": 3,
+  "retryDelay": 5000,
+  "logLevel": "info",
+  "dreamsAndNightmaresCaseId": "63529100e4821cab2f1c5ed2",
+  "customSellThreshold": 100000,
+  "autoFavoriteConfig": {
+    "favoriteLowFloats": true,
+    "favoritePatterns": true,
+    "customLowFloat": 0.0000001,
+    "customHighFloat": 0.99999,
+    "customSelectedFloats": ["0.123456", "0.42069"],
+    "favoriteCustomFloats": true
+  }
+}

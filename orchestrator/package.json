@@ -1,0 +1,33 @@
+{
+  "name": "case-clicker-orchestrator",
+  "version": "1.0.0",
+  "description": "Node.js orchestrator for automating case-clicker.com accounts",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "test": "vitest"
+  },
+  "keywords": [
+    "case-clicker",
+    "automation",
+    "bot",
+    "orchestrator"
+  ],
+  "author": "GetGood Team",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "lowdb": "^7.0.1",
+    "winston": "^3.11.0",
+    "node-cron": "^3.0.3",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "vitest": "^1.0.4"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
