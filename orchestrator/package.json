@@ -7,7 +7,9 @@
   "scripts": {
     "start": "node src/index.js",
     "dev": "node --watch src/index.js",
-    "test": "vitest"
+    "test": "vitest",
+    "test-click": "node test-click-api.js",
+    "test-phase1": "node test-phase1.js"
   },
   "keywords": [
     "case-clicker",
